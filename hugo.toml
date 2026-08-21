@@ -34,13 +34,28 @@ defaultContentLanguageInSubdir = true
 		    url = "/fr/team/past/"
       [[languages.fr.menu.main]]
         identifier = "recherche"
-        name = "Recherche"
+        name = "Thématiques de Recherche"
         url = "/fr/research"
         weight = 30
+		  [[languages.fr.menu.main]]
+			name = "Caractérisation de la variabilité hydro-climatique"
+			weight = 10
+			parent="recherche"
+			url="/fr/research/variability/"
+		  [[languages.fr.menu.main]]
+			name = "Modélisation des processus hydrologiques"
+			weight = 20
+			parent="recherche"
+			url="/fr/research/modeling/"
+	  [[languages.fr.menu.main]]
+	    identifier="projets"
+	    name = "Projets"
+	    weight = 40
+	    url="/fr/projects/"
       [[languages.fr.menu.main]]
         identifier = "outils"
         name = "Outils"
-        weight = 40
+        weight = 50
         url = "/fr/tools"
 		  [[languages.fr.menu.main]]
 		    name = "Modèles"
@@ -88,13 +103,28 @@ defaultContentLanguageInSubdir = true
 		    url = "en/team/past/"
       [[languages.en.menu.main]]
         identifier = "research"
-        name = "Research"
+        name = "Research Topics"
         weight = 30
         url = "/en/research"
+		  [[languages.en.menu.main]]
+			name = "Characterizing Hydro-Climate Variability"
+			weight = 10
+			parent="research"
+			url="/en/research/variability/"
+		  [[languages.en.menu.main]]
+			name = "Modeling Hydrological Processes"
+			weight = 20
+			parent="research"
+			url="/en/research/modeling/"
+	  [[languages.en.menu.main]]
+	    identifier="projects"
+	    name = "Projects"
+	    weight = 40
+	    url="/en/projects/"
       [[languages.en.menu.main]]
         identifier = "tools"
         name = "Tools"
-        weight = 40
+        weight = 50
         url = "/en/tools"
 		  [[languages.en.menu.main]]
 		    name = "Models"

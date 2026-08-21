@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://benrenard.github.io/en/research/variability/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://benrenard.github.io/fr/research/variability/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://benrenard.github.io/en/research/variability/"
+                />
+  </url><url>
     <loc>https://benrenard.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,6 +50,18 @@
                 href="https://benrenard.github.io/en/tools/databases/"
                 />
   </url><url>
+    <loc>https://benrenard.github.io/en/research/modeling/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://benrenard.github.io/fr/research/modeling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://benrenard.github.io/en/research/modeling/"
+                />
+  </url><url>
     <loc>https://benrenard.github.io/en/tools/models/</loc>
     <xhtml:link
                 rel="alternate"
@@ -60,6 +84,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://benrenard.github.io/en/team/past/"
+                />
+  </url><url>
+    <loc>https://benrenard.github.io/en/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://benrenard.github.io/fr/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://benrenard.github.io/en/projects/"
+                />
+  </url><url>
+    <loc>https://benrenard.github.io/en/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://benrenard.github.io/fr/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://benrenard.github.io/en/research/"
                 />
   </url><url>
     <loc>https://benrenard.github.io/en/</loc>

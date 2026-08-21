@@ -22,6 +22,13 @@
       <description>&lt;p&gt;base de donnees&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Caractérisation de la variabilité hydro-climatique</title>
+      <link>https://benrenard.github.io/fr/research/variability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/research/variability/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Equipe actuelle</title>
       <link>https://benrenard.github.io/fr/team/current/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,6 +48,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://benrenard.github.io/fr/tools/models/</guid>
       <description>&lt;p&gt;voici les modèles hydrologiques&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modélisation des processus hydrologiques</title>
+      <link>https://benrenard.github.io/fr/research/modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/research/modeling/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projets</title>
+      <link>https://benrenard.github.io/fr/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/projects/</guid>
+      <description>&lt;p&gt;Quelques projets emblématiques&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
