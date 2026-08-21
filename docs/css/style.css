@@ -88,7 +88,7 @@
 /* Bande noire au-dessus des logos */
 .top-black-bar {
   width: 100%;
-  height: 40px;   /* hauteur de la bande noir*/
+  height: 0px;   /* hauteur de la bande noir*/
   background: #010405; /* même noir que le menu */
   display : block; 
   position: relative;
@@ -99,7 +99,7 @@
 .top-banner {
   width: 100%;
   background: white;
-  padding: 15px 0;
+  padding: 0px 0;
   margin-top: 0px;
   position: relative; /* IMPORTANT : pas sticky */ 
   z-index: 10;
@@ -110,10 +110,10 @@
 .top-banner-logos {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 0px 30px;
   margin-left: 30px; /* alignement à gauche */
   width: fit-content; /* IMPORTANT : empêche l’étalement */
-
+  padding: 0px 0px;
 }
 
 .top-banner-logos img {
@@ -122,10 +122,10 @@
 
 /* Tailles individuelles des logos */
 .logo-rf {
-  height: 80px;
+  height: 60px;
 }
 .logo-inrae {
-  height: 20px;
+  height: 30px;
 }
 
 /* bande avec les menu */
@@ -138,7 +138,7 @@
 
 /* Contenu principal */
 main {
-  padding-top: 8px; /* laisse de la place pour le menu */
+  padding-top: 0px; /* 8px laisse de la place pour le menu */
 }
 
 body {
@@ -256,7 +256,7 @@ p {
 }
 
 body::before {
-  content: "CUSTOM CSS OK";
+  /* content: "CUSTOM CSS OK"; */
   position: fixed;
   top: 1000px;
   left: 0;
