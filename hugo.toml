@@ -1,8 +1,84 @@
 baseURL = "https://benrenard.github.io/"
 publishDir = "docs"
 theme = "hugo-clarity"
-languageCode = "fr-fr"
+tableOfContents=true
 
+# languages
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = true
+[languages]
+    [languages.fr]
+      disabled = false
+      languageCode = 'fr'
+      languageName = 'Français'
+      weight = 1
+      [[languages.fr.menu.main]]
+        identifier = "accueil"
+        name = "RHAX"
+        url = "/fr"
+        weight = 10
+      [[languages.fr.menu.main]]
+        identifier = "equipe"
+        name = "Équipe"
+        weight = 20
+      [[languages.fr.menu.main]]
+        name = "Équipe actuelle"
+        weight = 10
+        parent="equipe"
+        url = "/equipe/actuelle/"
+      [[languages.fr.menu.main]]
+        name = "Anciens membres"
+        weight = 20
+        parent="equipe"
+        url = "/equipe/anciens/"
+      [[languages.fr.menu.main]]
+        identifier = "recherche"
+        name = "Recherche"
+        weight = 30
+      [[languages.fr.menu.main]]
+        identifier = "outils"
+        name = "Outils"
+        weight = 40
+      [[languages.fr.menu.main]]
+        name = "🇬🇧 en"
+        weight = 99
+        url = "/en"
+    [languages.en]
+      disabled = false
+      languageCode = 'en'
+      languageName = 'English'
+      weight = 2
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "RHAX"
+        url = "/en"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "team"
+        name = "Team"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Current Members"
+        weight = 10
+        parent="team"
+        url = "/team/current/"
+      [[languages.en.menu.main]]
+        name = "Past Members"
+        weight = 20
+        parent="team"
+        url = "/team/past/"
+      [[languages.en.menu.main]]
+        identifier = "research"
+        name = "Research"
+        weight = 30
+      [[languages.en.menu.main]]
+        identifier = "tools"
+        name = "Tools"
+        weight = 40
+      [[languages.en.menu.main]]
+        name = "🇫🇷 fr"
+        weight = 99
+        url = "/fr"
 
 [[menu.sidebar]]
   name = "RHAX"
@@ -13,40 +89,7 @@ languageCode = "fr-fr"
   name = "Publications"
   url = "/recherche/publications/"
   weight = 2
-
-[[menu.main]]
-  name = "Rhax"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Recherches"
-  url = "/recherche/"
-  weight = 3
-
-[[menu.main]]
-  identifier = "equipe"
-  name = "Équipe"
-  url = "#"
-  weight = 2
-
-[[menu.main]]
-  name = "Équipe actuelle"
-  url = "/equipe/actuel/"
-  parent = "equipe"
-  weight = 1
-
-[[menu.main]]
-  name = "Anciens membres"
-  url = "/equipe/anciens/"
-  parent = "equipe"
-  weight = 2 
-
-[[menu.main]]
-  name = "Outils"
-  url = "/outils/"
-  weight = 6
-
+      
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
